@@ -11,4 +11,4 @@ spring:
       - id: compra
         uri: lb://compra/
         predicates:
-          - Path=/cart/**        
+          - Path=/compra/**        
